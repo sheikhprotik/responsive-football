@@ -6,40 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/* nav-bar */
-nav{
-    display: flex;
-    align-items: center;
-}
-/* .nav-container {
-	display: flex; 
-} */
-.nav-main{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header {
-  background: #2D25A0;;
-}
 
-nav ul {
-  padding: 0;
-  list-style: none;
-}
-nav li {
-  display: inline-block;
-  margin-left: 10px;
-  
-
-  position: relative;
-}
-nav a {
-  color: #FFFFFF;
-  text-decoration: none;
-  font-size: 14px;
-}
 main{
     width: 100%;
 }
@@ -381,11 +348,7 @@ margin-left: 180px;
         padding-bottom: 30px;
         font-weight: bold;
         font-size: 36px;
-    
-    }
-    .highlight-text p{
-        width: 329px;
-        height: 143px
+       
     }
     .btn{
         margin-bottom: 50px;
@@ -403,9 +366,7 @@ margin-left: 180px;
         margin-right: 16px;   
         transition: width 2s, height 2s, transform 2s;
     }
-    /* .video{
-        margin-bottom: 61.83px;
-    } */
+    
     iframe{
         width: 300px;
         height: 200px;
