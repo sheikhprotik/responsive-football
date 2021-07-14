@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     /* poppins font */
     font-family: 'Poppins', sans-serif;
@@ -70,15 +73,15 @@ main{
     font-size: 16px;
 }
 
-.banner-image{
+.banner-image img{
     width: 50%;
     margin-top: 153px;
 }
 .banner-image .player-photo{
-    width: 556.01px;
+    width: 500.01px;
     height: 438px;
     margin-right: 140.99px;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 1s, height 1s, transform 2s;
 }
 /* transform effect */
 
@@ -91,8 +94,8 @@ main{
 /* players details section */
 .Players-deatails{
     margin-top: 70px;
-    margin-left: 180px;
-    margin-right: 210px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .players{
     /* width: auto; */
@@ -145,8 +148,8 @@ hr{
 .highlight-eliments{
     margin-top: 70px;
     margin-bottom: 50px;
-    margin-left: 156px;
-    margin-right: 102px;
+    margin-left: 100px;
+    margin-right: 100px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -284,6 +287,7 @@ margin-left: 180px;
     .banner-image .player-photo {
         width: 329px;
         height: 259.17px;
+        margin-top: 0px;
         margin-right: 16px;   
         transition: width 2s, height 2s, transform 2s;
     }
