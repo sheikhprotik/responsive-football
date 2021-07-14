@@ -6,6 +6,40 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+/* nav-bar */
+nav{
+    display: flex;
+    align-items: center;
+}
+/* .nav-container {
+	display: flex; 
+} */
+.nav-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+  background: #2D25A0;;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+  
+
+  position: relative;
+}
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+}
 main{
     width: 100%;
 }
